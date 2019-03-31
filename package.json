@@ -22,8 +22,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "prop-types": "^15.5.4",
-    "inferno": "^7.1.11"
+    "inferno": "^7.1.11",
+    "prop-types": "^15.5.4"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -45,12 +45,12 @@
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/plugin-syntax-import-meta": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "babel-plugin-inferno": "^6.0.5",
     "@svgr/rollup": "^2.4.1",
     "babel-eslint": "^10.0.1",
+    "babel-plugin-inferno": "^6.0.5",
     "cross-env": "^5.1.4",
-    "eslint-plugin-inferno": "^7.11.0",
     "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-inferno": "^7.11.0",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.0",
     "gh-pages": "^1.2.0",
@@ -66,5 +66,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "create-inferno-context": "^0.2.4"
+  }
 }
