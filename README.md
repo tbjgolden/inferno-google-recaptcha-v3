@@ -29,3 +29,9 @@ class Example extends Component {
 ## License
 
 MIT © [tbjgolden](https://github.com/tbjgolden)
+
+## Credits
+
+Made using [`create-inferno-library`](https://github.com/tbjgolden/create-inferno-library).
+
+Based on [react-google-recaptcha-v3](https://github.com/t49tran/react-google-recaptcha-v3).
