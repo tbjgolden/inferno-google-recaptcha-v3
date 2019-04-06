@@ -1,7 +1,7 @@
 import { Component } from 'inferno';
-import createContext from 'create-inferno-context';
+import createInfernoContext from './createInfernoContext';
 
-const GoogleReCaptchaContext = createContext({});
+const GoogleReCaptchaContext = createInfernoContext({});
 const GoogleReCaptchaConsumer = GoogleReCaptchaContext.Consumer;
 export { GoogleReCaptchaConsumer, GoogleReCaptchaContext };
 

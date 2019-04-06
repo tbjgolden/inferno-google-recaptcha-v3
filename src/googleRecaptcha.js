@@ -1,5 +1,5 @@
 import { Component } from 'inferno';
-import { withGoogleReCaptcha } from './with-google-recaptcha';
+import { withGoogleReCaptcha } from './withGoogleRecaptcha';
 
 class GoogleReCaptcha extends Component {
   async componentDidMount() {

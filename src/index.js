@@ -1,3 +1,3 @@
-export * from './google-recaptcha-provider';
-export * from './google-recaptcha';
-export * from './with-google-recaptcha';
+export * from './googleRecaptchaProvider';
+export * from './googleRecaptcha';
+export * from './withGoogleRecaptcha';

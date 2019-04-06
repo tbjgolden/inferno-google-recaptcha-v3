@@ -1,5 +1,5 @@
 import { Component } from 'inferno';
-import { GoogleReCaptchaConsumer } from './google-recaptcha-provider';
+import { GoogleReCaptchaConsumer } from './googleRecaptchaProvider';
 
 export const withGoogleReCaptcha = WrappedComponent => {
   const { displayName, name } = WrappedComponent;

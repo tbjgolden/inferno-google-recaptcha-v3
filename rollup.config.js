@@ -3,6 +3,7 @@ import commonjs from 'rollup-plugin-commonjs'
 import external from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
 import resolve from 'rollup-plugin-node-resolve'
+import replace from 'rollup-plugin-replace'
 import url from 'rollup-plugin-url'
 import svgr from '@svgr/rollup'
 
@@ -30,10 +31,12 @@ export default {
     url({ exclude: ['**/*.svg'] }),
     svgr(),
     babel({
-      exclude: 'node_modules/**',
-      plugins: [ '@babel/external-helpers' ]
+      exclude: 'node_modules/**'
     }),
     resolve(),
-    commonjs()
+    // commonjs(),
+    // replace({
+    //   "import inferno, ": "import "
+    // })
   ]
 }
